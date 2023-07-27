@@ -1,0 +1,29 @@
+config_name: base_modl,k=10
+description: "base config, k=10. Restore weights from <base_modl,k=1>"
+
+n_layers: 5
+k_iters: 10
+epochs: 50
+
+dataset_name: modl_dataset
+dataset_params:
+  dataroot_in: '/home3/HWGroup/wangcy/JunLyu/wgm/singlec/Newsingle/lax_single_channel/data/Mapping/mul/TrainingSet/T2map'
+  dataroot_in_test: '/home3/HWGroup/wangcy/JunLyu/wgm/singlec/Newsingle/lax_single_channel/data/Mapping/mul/TestSet/T2map'
+  dataroot_in_csm: '/home3/HWGroup/wangcy/JunLyu/wgm/singlec/Newsingle/lax_single_channel/data/Mapping/mul/TrainingSet/T2csm'
+  dataroot_in_csm_test: '/home3/HWGroup/wangcy/JunLyu/wgm/singlec/Newsingle/lax_single_channel/data/Mapping/mul/TestSet/T2csm'
+  dataroot_mask: '/home3/HWGroup/wangcy/JunLyu/wgm/singlec/Newsingle/lax_single_channel/data/mask'
+  sigma: 0.01
+val_data: False
+batch_size: 8
+
+model_name: base_modl
+
+restore_weights: final #False, best, inter, final
+restore_path: './workspace/base_modl,k=1/checkpoints/'
+
+loss_name: MSE
+score_names: ['PSNR', 'SSIM']
+optim_name: Adam
+optim_params:
+  lr: 0.001
+gradient_clip: True

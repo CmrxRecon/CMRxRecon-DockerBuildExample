@@ -1,0 +1,67 @@
+config path: configs/base_modl,k=10.yaml
+workspace: ./workspace/base_modl,k=10
+description: base config, k=10. Restore weights from <base_modl,k=1>
+
+
+train start: 2023-06-09 16:52:39
+-----------------------
+epoch 0/50 train score: 29.703592	loss: 0.005733
+epoch 1/50 train score: 32.361289	loss: 0.000686
+epoch 2/50 train score: 33.182321	loss: 0.000577
+epoch 3/50 train score: 33.583605	loss: 0.000529
+epoch 4/50 train score: 33.824377	loss: 0.000503
+epoch 5/50 train score: 33.999151	loss: 0.000485
+epoch 6/50 train score: 34.165214	loss: 0.000469
+epoch 7/50 train score: 34.299250	loss: 0.000456
+epoch 8/50 train score: 34.411593	loss: 0.000446
+epoch 9/50 train score: 34.523961	loss: 0.000436
+epoch 10/50 train score: 34.616943	loss: 0.000428
+epoch 11/50 train score: 34.702513	loss: 0.000421
+epoch 12/50 train score: 34.779331	loss: 0.000415
+epoch 13/50 train score: 34.854513	loss: 0.000409
+epoch 14/50 train score: 34.921265	loss: 0.000403
+epoch 15/50 train score: 34.993020	loss: 0.000398
+epoch 16/50 train score: 35.058207	loss: 0.000393
+epoch 17/50 train score: 35.120942	loss: 0.000389
+epoch 18/50 train score: 35.181193	loss: 0.000384
+epoch 19/50 train score: 35.237611	loss: 0.000380
+epoch 20/50 train score: 35.285940	loss: 0.000377
+epoch 21/50 train score: 35.335341	loss: 0.000374
+epoch 22/50 train score: 35.394394	loss: 0.000370
+epoch 23/50 train score: 35.447261	loss: 0.000367
+epoch 24/50 train score: 35.491192	loss: 0.000364
+epoch 25/50 train score: 35.533907	loss: 0.000361
+epoch 26/50 train score: 35.578850	loss: 0.000358
+epoch 27/50 train score: 35.618770	loss: 0.000356
+epoch 28/50 train score: 35.654309	loss: 0.000354
+epoch 29/50 train score: 35.696123	loss: 0.000351
+epoch 30/50 train score: 35.730300	loss: 0.000349
+epoch 31/50 train score: 35.755446	loss: 0.000348
+epoch 32/50 train score: 35.793404	loss: 0.000345
+epoch 33/50 train score: 35.816620	loss: 0.000344
+epoch 34/50 train score: 35.846860	loss: 0.000343
+epoch 35/50 train score: 35.867758	loss: 0.000341
+epoch 36/50 train score: 35.894031	loss: 0.000340
+epoch 37/50 train score: 35.915366	loss: 0.000338
+epoch 38/50 train score: 35.947491	loss: 0.000336
+epoch 39/50 train score: 35.968082	loss: 0.000335
+epoch 40/50 train score: 35.989980	loss: 0.000334
+epoch 41/50 train score: 35.996589	loss: 0.000334
+epoch 42/50 train score: 36.039691	loss: 0.000331
+epoch 43/50 train score: 36.058444	loss: 0.000330
+epoch 44/50 train score: 36.071333	loss: 0.000329
+epoch 45/50 train score: 36.100283	loss: 0.000328
+epoch 46/50 train score: 36.123396	loss: 0.000326
+epoch 47/50 train score: 36.141051	loss: 0.000325
+epoch 48/50 train score: 36.173831	loss: 0.000324
+epoch 49/50 train score: 36.175565	loss: 0.000324
+-----------------------
+total train time: 1096.64 min
+best score: 36.175565
+
+
+test start: 2023-06-11 10:47:16
+test PSNR score: 35.5803
+test SSIM score: 0.8969
+-----------------------
+total test time: 11.45 min

@@ -1,0 +1,3 @@
+此文件夹内的python文件是将测试结果转成Submission的标准格式，文件路径‘path’应修改为测试结果路径，‘savepath’为此处运行结果的文件保存路径
+
+此文件夹内的matlab文件是将上述处理好的内容按照GT剪切心脏部分，进行切片处理。‘folders_path’应修改为上一部分‘savepath’的路径。‘gt_fpth’为8007端口内的Ground Truth文件路径，同样此处的'save(strcat(folder_path,'/','T2map_.mat'),'img4ranking');'可根据需求修改。

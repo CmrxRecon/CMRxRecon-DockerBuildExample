@@ -1,0 +1,87 @@
+运行test
+Cine:
+	Multi lax/sax:
+	lax4x:
+		1) cd ./code/Cine/Multi/lax4x  
+		2) sh ./scripts/test.sh
+	lax8x:
+		1) cd ./code/Cine/Multi/lax8x  
+		2) sh ./scripts/test.sh
+	lax10x:
+		1) cd ./code/Cine/Multi/lax10x  
+		2) sh ./scripts/test.sh
+	sax4x:
+		1) cd ./code/Cine/Multi/sax4x  
+		2) sh ./scripts/test.sh
+	sax8x:
+		1) cd ./code/Cine/Multi/sax8x  
+		2) sh ./scripts/test.sh
+	sax10x:
+		1) cd ./code/Cine/Multi/sax10x  
+		2) sh ./scripts/test.sh
+
+	Single lax/sax:
+	lax4x:
+		1) cd ./code/Cine/Single/lax4x  
+		2) sh ./scripts/test.sh
+	lax8x:
+		1) cd ./code/Cine/Single/lax8x  
+		2) sh ./scripts/test.sh
+	lax10x:
+		1) cd ./code/Cine/Single/lax10x  
+		2) sh ./scripts/test.sh
+	sax4x:
+		1) cd ./code/Cine/Single/sax4x  
+		2) sh ./scripts/test.sh
+	sax8x:
+		1) cd ./code/Cine/Single/sax8x  
+		2) sh ./scripts/test.sh
+	sax10x:
+		1) cd ./code/Cine/Single/sax10x  
+		2) sh ./scripts/test.sh
+Mapping:
+	Multi T1/T2:
+	T1map4x:
+		1) cd ./code/Mapping/Multi/T1map4x
+		2) sh ./scripts/test.sh
+	T1map8x:
+		1) cd ./code/Mapping/Multi/T1map8x
+		2) sh ./scripts/test.sh
+	T1map10x:
+		1) cd ./code/Mapping/Multi/T1map10x
+		2) sh ./scripts/test.sh
+	T2map4x:
+		1) cd ./code/Mapping/Multi/T2map4x
+		2) sh ./scripts/test.sh
+	T2map8x:
+		1) cd ./code/Mapping/Multi/T2map8x
+		2) sh ./scripts/test.sh
+	T2map10x:
+		1) cd ./code/Mapping/Multi/T2map10x
+		2) sh ./scripts/test.sh
+	Single T1/T2:
+	T1map4x:
+		1) cd ./code/Mapping/Single/T1map4x
+		2) sh ./scripts/test.sh
+	T1map8x:
+		1) cd ./code/Mapping/Single/T1map8x
+		2) sh ./scripts/test.sh
+	T1map10x:
+		1) cd ./code/Mapping/Single/T1map10x
+		2) sh ./scripts/test.sh
+	T2map4x:
+		1) cd ./code/Mapping/Single/T2map4x
+		2) sh ./scripts/test.sh
+	T2map8x:
+		1) cd ./code/Mapping/Single/T2map8x
+		2) sh ./scripts/test.sh
+	T2map10x:
+		1) cd ./code/Mapping/Single/T2map10x
+		2) sh ./scripts/test.sh
+
+	
+
+
+
+
+	
