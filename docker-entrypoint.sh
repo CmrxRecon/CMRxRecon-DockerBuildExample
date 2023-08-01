@@ -1,13 +1,14 @@
 #/bin/bash
 # check the enviroment and get the sumbmitter information,
-# DO NOT EDIT THIS LINE
 set -e
-nvidia-smi
-cd /output_dir
+#nvidia-smi
+cd /output
+# DO NOT EDIT THIS LINE
 python /before_run.py
 
-# Run your inference code and output the result to /output_dir
-python /app/inference.py /input_dir /output_dir
+# You can add more commands here to init your enviromentt
+# Run your inference code and output the result to /output
+python /app/inference.py --input /input --output /output
 
 # DO NOT EDIT THIS LINE
 python /after_run.py
