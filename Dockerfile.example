@@ -1,3 +1,5 @@
+# Copy to Dockerfile
+
 # Specify the base image
 FROM pytorch/pytorch:2.0.1-cuda11.7-cudnn8-devel
 
@@ -9,6 +11,7 @@ RUN pip install -r /app/requirements.txt
 
 # DO NOT EDIT THE FLLOWING LINES
 COPY *_run.py /
+COPY submmitter.json
 # You can run more commands when the container start by 
 # editing docker-entrypoint.sh
 COPY docker-entrypoint.sh /
