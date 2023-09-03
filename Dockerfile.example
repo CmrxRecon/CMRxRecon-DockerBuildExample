@@ -11,7 +11,7 @@ RUN pip install -r /app/requirements.txt
 
 # DO NOT EDIT THE FLLOWING LINES
 COPY *_run.py /
-COPY submmitter.json
+COPY submitter.json /
 # You can run more commands when the container start by 
 # editing docker-entrypoint.sh
 COPY docker-entrypoint.sh /
