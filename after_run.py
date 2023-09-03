@@ -8,7 +8,7 @@ import os
 print('After running')
 # TODO Send email to the submitter
 
-with open('submitter.json', 'r') as f:
+with open('/submitter.json', 'r') as f:
     submitter = json.load(f)
 
 team_name = submitter['team_name']
